@@ -1,0 +1,29 @@
+main: code.BreakMC.avalon.Avalon
+name: Avalon
+version: 1.0
+author: Young_Explicit
+
+commands:
+  test:
+      description: Test Command
+        invsee:
+	    description: Allows you to view the inventory of a player.
+	      gamemode:
+	          description: Sets you or a players game mode.
+		      aliases: [gm]
+		        clear:
+			    aliases: [ci]
+			        description: Clears your inventory.
+				  speed:
+				      description: Sets your Fly/Walk speeds.
+				        fly:
+					    description: Toggles flying mode for you or a player.
+					      heal:
+					          description: Heals you or a player.
+						    feed:
+						        description: Feeds your or a player.
+							  lag:
+							      description: Displays the servers current lag.
+							        spawn:
+								    description: Teleports you to the spawn.
+
